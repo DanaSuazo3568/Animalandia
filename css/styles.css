@@ -1,166 +1,128 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    font-family:'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-/* :root{
-    --img-rectangle11: url(css/rectangle11.png);
-} */
-
-.header {
-    margin: 30px;
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../img/fondo.png);
+    margin: 0;
 }
 
-.list-nav {
-    padding: 10px;
-    list-style-type: none;
-    background-color: #752995;
+.img-logo {
+    text-align: center;
+    background: #ffffff;
+    width: 100%;
 }
 
-.list-nav_li {
-    margin: 0px;
-    padding: 10px;
-    display: inline;
+.text-header-logo {
+    background-color: #00B2B1;
+    text-align: center;
 }
 
-.list-nav a {
+.justify-content-center {
+    background-color: #00B2B1;
+    margin-top: 0;
+}
+
+.nav-item a {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+.nav-link {
     font-weight: normal;
     font-size: 16px;
-    font-weight: 2em;
+    font-weight: o;
     text-decoration: none;
-    color: rgb(255, 255, 255);
 }
 
-.list-nav_li:hover {
-    background-color: #8b35af;
-}
-
-/* Articulos */
-
-.section-article {
-    background-image: url(../img/rectangle.png);
-    border:none;
-}
-
-.section-article_h1 {
-    font-family:'Raleway', sans-serif;
-    font-weight: 100;
-    padding-top: 10px;
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-}
-
-.section-article_baño {
-    margin-top: 16px;
-    float: right;
-    width: 400px;
-    height: 368px;
-    background-color: #752995;
+/* carrusel */
+#carouselExampleControls{
+    
 }
 
 
-.section-article_text {
-    width: 948px;
-    height: 384px;
-    background-image: url("../img/rectangle.png");
-}
-
-
-.section-article_img-perro {
-    padding: 10px;
-    border-radius: 100%;
-    margin-left: 35px;
-    margin-top: 16px;
-}
-
-#div-text {
-    padding-top: 20px;
-    margin-left: 20px;
-}
-
-#div-text h2 {
-    font-family:'Raleway', sans-serif;
-    font-weight: 100;
-    font-weight: bold;
-}
-
-#div-text p {
-    font-weight: mixed;
-}
-
-#div-text h3 {
-    font-family:'Raleway', sans-serif;
-    font-weight: 100;
-    font-weight: bold;
-}
-
-.section-article_img-btn {
-    font-family:'Raleway', sans-serif;
-    padding: 10px;
-    font-weight: bold;
-    color: #752995;
-    background-color: #ffffff;
-    border: 1px solid #752995;
-    border-radius: 10%;
-}
-
-.section-article_img-btn:hover {
-    padding: 10px;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #752995;
-    border: 1px solid #752995;
-    border-radius: 10%;
-}
-
-/* Servicios */
-
-.section-article_services h1 {
-    font-family:'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    text-align: center;
-    color: #752995;
-    text-shadow: 2px 2px 5px #752995;
-}
-.div-box h2{
-    font-family:'Raleway', sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
-.div-box p{
-    font-weight: normal;
-    text-align: left;
-}
-.section-article_box {
-    text-align: center;
-    content: "";
-    clear: both;
-    display: table;
-}
- 
-.div-box {
-    float: left;
-    width: 33.33%;
-    padding: 50px;
-}
 /* footer */
-.footer-sede{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 400px;
-    background-image:url(../img/footer.png);
-}
-.footer-sede_box{
-    text-align: center;
-}
-.footer-sede_box li{
+
+.footer-caja_sedes {
+    font-weight: normal;
     color: #ffffff;
-    list-style: none;
-    font-weight: bold;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    margin: 12px;
+}
+
+#sedes {
+    display: flex;
+
+}
+
+.footer-sede {
+    display: flex;
+    background: #00B2B1;
+    justify-content: space-around;
+    margin: 0;
+    flex-direction: row;
+
+}
+
+@media(max-width:900px) {
+    .footer-sede {
+        flex-direction: column;
+    }
+}
+
+.footer-sede_ul {
+    font-weight: normal;
+    color: #ffffff;
     text-align: left;
+    list-style-type: none;
+    margin: 12px;
+}
+
+#redes-sociales {
+    display: inline;
+
+}
+
+.svg-redessociles {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.ANIMALANDIAPETSTiendaVeterinaria {
+    text-align: center;
+    margin: 12px;
+}
+
+.footer-caja_contactenos {
+    text-align: right;
+    margin-right: 0%;
+    float: right;
+    
+}
+
+.text-contactenos {
+    font-weight: normal;
+    color: #ffffff;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    margin: 12px;
+}
+
+.icons_contactenos li {
+    border: 1px;
+    color: #ffffff;
+    list-style-type: none;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    margin: 12px;
+}
+
+.icons_contactenos i {
+    font-size: 25px;
 }
