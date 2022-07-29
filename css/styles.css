@@ -1,4 +1,5 @@
 * {
+    /* border: 1px solid black; */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -31,16 +32,121 @@ body {
     color: #ffffff;
 }
 
+.button-cuenta {
+    font-family: 'Raleway', sans-serif;
+    padding: 7px;
+    font-weight: medium;
+    border: 1px solid white;
+    background-color: #00B2B1;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    text-align: right;
+    margin: 15px;
+    top: -70px;
+    left: 1150px;
+    color: #ffffff;
+    position: relative;
+}
+
+.button-cuenta a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: medium;
+    color: #ffffff;
+    list-style-type: none;
+
+}
+
+.button-cuenta:hover {
+    background-color: #ffffff;
+    color: #00B2B1;
+}
+
 .nav-link {
     font-weight: normal;
     font-size: 16px;
-    font-weight: o;
+    font-weight: 0;
     text-decoration: none;
 }
 
 /* carrusel */
-#carouselExampleControls{
-    
+#carouselExampleControls {
+    margin-top: -70px;
+}
+
+/* section-article */
+
+.section-article_h1 {
+    text-align: center;
+    background-color: #D1E8E590;
+    margin-inline: 42px;
+    margin-top: 42px;
+    color: #525252;
+    font-weight: bolder;
+}
+
+.section-article_box {
+    text-align: center;
+    clear: both;
+    display: table;
+    margin-top: 0;
+    margin: auto;
+
+}
+
+.section-article_content {
+    float: left;
+    width: 32%;
+    padding: 10px;
+}
+
+.section-article_content h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: #D1E8E590;
+    color: #525252;
+    font-weight: bolder;
+}
+
+.section-service {
+    width: 330px;
+    height: 340px;
+    text-align: center;
+}
+
+.section-article {
+    text-align: center;
+}
+
+/* map */
+.map-ubicanos {
+    margin: 50px;
+    float: inline;
+}
+
+.map-article {
+    background-color: #D1E8E590;
+    height: 50px;
+    width: 700px;
+    text-align: center;
+    color: #525252;
+    font-weight: bolder;
+}
+
+.sedes-maps li {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: normal;
+}
+
+.Pets-shop {
+    position: relative;
+    right: -200px;
+}
+
+.map-flex {
+    display: flex;
 }
 
 
@@ -103,7 +209,7 @@ body {
     text-align: right;
     margin-right: 0%;
     float: right;
-    
+
 }
 
 .text-contactenos {
@@ -126,3 +232,332 @@ body {
 .icons_contactenos i {
     font-size: 25px;
 }
+
+.tortuga {
+    width: 100%;
+    height: 690px;
+    margin-top: 0;
+}
+
+.Agenda-tu-cita {
+    width: 1440px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.agenda {
+    background-color: #00B2B180;
+    text-align: center;
+    margin: 0%;
+    color: #525252;
+    height: 55px;
+}
+
+.Veterinary {
+    background-color: #00B2B170;
+    color: #525252;
+    height: 74px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+
+.clinic-veterinary {
+    text-align: center;
+}
+
+/* calender */
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #00B2B1;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .weekdays li,
+    .days li {
+        width: 12.5%;
+    }
+
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+
+    .weekdays li,
+    .days li {
+        width: 12.2%;
+    }
+}
+
+/* forms ingresar*/
+.forms {
+    background-color: #ffffff;
+    border: 9px solid #00B2B1;
+    width: 578px;
+    height: 350px;
+    border: 9px solid #00B2B1;
+    padding: 15px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ingresar {
+    background-color: #00B2B1;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-ingresar {
+    margin: 50px;
+}
+
+/* forms Registrar */
+#Formulario-registrar {
+    width: 950px;
+    height: 730px;
+    padding: 10px;
+    margin: auto;
+}
+
+.Registrar {
+    background-color: #00B2B1;
+    padding: 3px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Form-registrar {
+    margin: 50px;
+    background-color: #ffffff;
+    border: 9px solid #00b2b1;
+    padding: 10px;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#btn-primary {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #00B2B1;
+    margin: 8px;
+    float: right;
+}
+
+.dog-calle {
+    width: 100%;
+}
+
+.Tips li {
+    list-style-type: none;
+    display: inline;
+}
+
+.Tips {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.tips-img {
+    margin: 10px;
+}
+
+.section-tips_box {
+    text-align: center;
+    clear: both;
+    display: table;
+    margin-top: 0;
+    margin: auto;
+
+}
+
+.section-article_tips {
+    float: left;
+    width: 32%;
+    padding: 10px;
+}
+
+.section-article_tips p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: #D1E8E590;
+    color: #525252;
+    font-weight: bolder;
+}
+
+.section-tips {
+    width: 330px;
+    height: 340px;
+    text-align: center;
+}
+
+.section-article-tips {
+    text-align: center;
+}
+
+/* card */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.Card-toypet {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Card-toy-pet{
+    margin: 20px;
+    padding-inline: center;
+}
+
+.Productos-{
+    background-color: #00B2B170;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #525252;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+
+}
+.Dog-Calle-eat{
+    width: 100%;
+    margin-top: -1px;
+}
+
