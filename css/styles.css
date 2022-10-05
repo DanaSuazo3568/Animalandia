@@ -32,6 +32,7 @@ body {
     color: #ffffff;
 }
 
+/* ingrasar */
 .button-cuenta {
     font-family: 'Raleway', sans-serif;
     padding: 7px;
@@ -376,6 +377,31 @@ body {
     }
 }
 
+/* admin_user */
+.ingresar_admin_user {
+    text-align: center;
+    display: grid;
+    padding-block: 140px;
+    grid-template-columns: 800px 800px;
+    color: mediumpurple;
+}
+
+
+.button-user {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+    border: 1px solid rgb(138, 193, 255);
+    background-color: #00B2B1;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    text-align: right;
+    margin: 15px;
+    top: -70px;
+    left: 1150px;
+    color: #ffffff;
+    
+}
 /* forms ingresar*/
 .forms {
     background-color: #ffffff;
@@ -499,7 +525,7 @@ body {
     width: 300px;
     height: 300px;
     perspective: 1000px;
-    
+
 }
 
 .flip-card-inner {
@@ -541,12 +567,12 @@ body {
     flex-wrap: wrap;
 }
 
-#Card-toy-pet{
+#Card-toy-pet {
     margin: 20px;
     padding-inline: center;
 }
 
-.Productos-{
+.Productos- {
     background-color: #00B2B170;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -556,8 +582,8 @@ body {
     font-weight: bold;
 
 }
-.Dog-Calle-eat{
+
+.Dog-Calle-eat {
     width: 100%;
     margin-top: -1px;
 }
-
