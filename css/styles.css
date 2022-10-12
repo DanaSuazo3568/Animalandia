@@ -32,7 +32,7 @@ body {
     color: #ffffff;
 }
 
-/* ingrasar */
+/* ingresar */
 .button-cuenta {
     font-family: 'Raleway', sans-serif;
     padding: 7px;
@@ -240,141 +240,11 @@ body {
     margin-top: 0;
 }
 
-.Agenda-tu-cita {
-    width: 1440px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    padding: 0;
-}
 
 .agenda {
-    background-color: #00B2B180;
-    text-align: center;
-    margin: 0%;
-    color: #525252;
-    height: 55px;
-}
-
-.Veterinary {
-    background-color: #00B2B170;
-    color: #525252;
-    height: 74px;
-    font-size: 40px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    margin: 0;
-}
-
-.clinic-veterinary {
-    text-align: center;
-}
-
-/* calender */
-* {
-    box-sizing: border-box;
-}
-
-ul {
-    list-style-type: none;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-.month {
-    padding: 70px 25px;
     width: 100%;
-    background: #00B2B1;
-    text-align: center;
-}
-
-.month ul {
-    margin: 0;
-    padding: 0;
-}
-
-.month ul li {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
-
-.weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color: #ddd;
-}
-
-.weekdays li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
-    text-align: center;
-}
-
-.days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
-}
-
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size: 12px;
-    color: #777;
-}
-
-.days li .active {
-    padding: 5px;
-    background: #1abc9c;
-    color: white !important
-}
-
-/* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-
-    .weekdays li,
-    .days li {
-        width: 13.1%;
-    }
-}
-
-@media screen and (max-width: 420px) {
-
-    .weekdays li,
-    .days li {
-        width: 12.5%;
-    }
-
-    .days li .active {
-        padding: 2px;
-    }
-}
-
-@media screen and (max-width: 290px) {
-
-    .weekdays li,
-    .days li {
-        width: 12.2%;
-    }
+    height: 690px;
+    margin-top: 0;
 }
 
 /* admin_user */
@@ -462,6 +332,16 @@ body {
     float: right;
 }
 
+.form_agend_citas_pets{
+    margin: 60px;
+    background-color: #ffffff;
+    border: 9px solid #00b2b1;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    height: 60%;
+}
+/* tips */
 .dog-calle {
     width: 100%;
 }
@@ -515,75 +395,3 @@ body {
     text-align: center;
 }
 
-/* card */
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-
-}
-
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.flip-card-front {
-    background-color: #bbb;
-    color: black;
-}
-
-.flip-card-back {
-    background-color: #2980b9;
-    color: white;
-    transform: rotateY(180deg);
-}
-
-.Card-toypet {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#Card-toy-pet {
-    margin: 20px;
-    padding-inline: center;
-}
-
-.Productos- {
-    background-color: #00B2B170;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: #525252;
-    padding: 10px;
-    margin: 10px;
-    font-weight: bold;
-
-}
-
-.Dog-Calle-eat {
-    width: 100%;
-    margin-top: -1px;
-}
